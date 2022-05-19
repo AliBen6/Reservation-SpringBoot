@@ -16,6 +16,7 @@ public class Artists {
     @JacksonXmlElementWrapper(useWrapping = false)
     private Collection<Artist> artists = null;
 
+
     public Collection<Artist> getArtists() {
         if (artists == null) {
 

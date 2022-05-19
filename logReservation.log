@@ -157,3 +157,8 @@ Members {size:1, ver:1} [
 2022-05-19 20:05:07.310  INFO 28868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2022-05-19 20:05:07.326  INFO 28868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-05-19 20:05:07.341  INFO 28868 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : Started ReservationsSpringBootApplication in 8.542 seconds (JVM running for 9.252)
+2022-05-19 20:40:44.642  INFO 28868 --- [hz.ShutdownThread] com.hazelcast.instance.impl.Node         : [10.31.172.182]:5701 [dev] [4.0.2] Running shutdown hook... Current state: ACTIVE
+2022-05-19 20:40:44.946  INFO 28868 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-19 20:40:44.946  INFO 28868 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 20:40:44.946  INFO 28868 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 20:40:44.946  INFO 28868 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
