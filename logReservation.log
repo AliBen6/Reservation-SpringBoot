@@ -1,0 +1,159 @@
+2022-05-19 18:52:20.002  INFO 9512 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : Starting ReservationsSpringBootApplication using Java 11.0.14 on CTRL-J0FYLG3 with PID 9512 (C:\Users\abenaiche\Desktop\Workspace\Reservations-SpringBoot\target\classes started by ABenaiche in C:\Users\abenaiche\Desktop\Workspace\Reservations-SpringBoot)
+2022-05-19 18:52:20.021  INFO 9512 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : The following profiles are active: DEV
+2022-05-19 18:52:20.061  INFO 9512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 18:52:20.061  INFO 9512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 18:52:21.101  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.149  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.149  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.165  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.165  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.165  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.165  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.186  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.186  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.186  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.186  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.202  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.202  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.202  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:21.202  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 18:52:21.217  INFO 9512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-19 18:52:22.451  INFO 9512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-19 18:52:22.466  INFO 9512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 18:52:22.466  INFO 9512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-05-19 18:52:22.681  INFO 9512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 18:52:22.681  INFO 9512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2022-05-19 18:52:22.719  INFO 9512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 18:52:22.982  INFO 9512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 18:52:22.988  INFO 9512 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./reservations'
+2022-05-19 18:52:23.083  INFO 9512 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2022-05-19 18:52:23.104  INFO 9512 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:file:./reservations (H2 1.4)
+2022-05-19 18:52:23.544  INFO 9512 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 24 migrations (execution time 00:00.410s)
+2022-05-19 18:52:23.560  INFO 9512 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 12.2
+2022-05-19 18:52:23.560  INFO 9512 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-05-19 18:52:23.576  INFO 9512 --- [restartedMain] c.h.i.config.AbstractConfigLocator       : Loading 'hazelcast.yaml' from the classpath.
+2022-05-19 18:52:23.667  WARN 9512 --- [restartedMain] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-05-19 18:52:23.689  INFO 9512 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.2] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2022-05-19 18:52:24.189  INFO 9512 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.2] Picked [10.1.84.218]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2022-05-19 18:52:24.205  INFO 9512 --- [restartedMain] com.hazelcast.system                     : [10.1.84.218]:5701 [dev] [4.0.2] Hazelcast 4.0.2 (20200702 - 2de3027) starting at [10.1.84.218]:5701
+2022-05-19 18:52:24.205  INFO 9512 --- [restartedMain] com.hazelcast.system                     : [10.1.84.218]:5701 [dev] [4.0.2] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2022-05-19 18:52:24.338  INFO 9512 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [10.1.84.218]:5701 [dev] [4.0.2] Backpressure is disabled
+2022-05-19 18:52:25.436  INFO 9512 --- [restartedMain] com.hazelcast.instance.impl.Node         : [10.1.84.218]:5701 [dev] [4.0.2] Creating MulticastJoiner
+2022-05-19 18:52:25.436  WARN 9512 --- [restartedMain] com.hazelcast.cp.CPSubsystem             : [10.1.84.218]:5701 [dev] [4.0.2] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-05-19 18:52:25.640  INFO 9512 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [10.1.84.218]:5701 [dev] [4.0.2] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2022-05-19 18:52:25.640  INFO 9512 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [10.1.84.218]:5701 [dev] [4.0.2] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-05-19 18:52:25.656  INFO 9512 --- [restartedMain] com.hazelcast.core.LifecycleService      : [10.1.84.218]:5701 [dev] [4.0.2] [10.1.84.218]:5701 is STARTING
+2022-05-19 18:52:28.827  INFO 9512 --- [restartedMain] c.h.internal.cluster.ClusterService      : [10.1.84.218]:5701 [dev] [4.0.2] 
+
+Members {size:1, ver:1} [
+	Member [10.1.84.218]:5701 - 93a7868e-4edd-483b-8c7c-2c8c005f4d3a this
+]
+
+2022-05-19 18:52:28.843  INFO 9512 --- [restartedMain] com.hazelcast.core.LifecycleService      : [10.1.84.218]:5701 [dev] [4.0.2] [10.1.84.218]:5701 is STARTED
+2022-05-19 18:52:28.956  INFO 9512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 18:52:29.013  INFO 9512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-05-19 18:52:29.128  INFO 9512 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 18:52:29.251  INFO 9512 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-19 18:52:29.952  INFO 9512 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 18:52:29.967  INFO 9512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 18:52:30.467  WARN 9512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 18:52:30.604  INFO 9512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-19 18:52:31.309  INFO 9512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-19 18:52:31.340  INFO 9512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-19 18:52:31.340  INFO 9512 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : Started ReservationsSpringBootApplication in 11.954 seconds (JVM running for 12.872)
+2022-05-19 18:59:10.241  INFO 9512 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 18:59:10.243  INFO 9512 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 18:59:10.252  INFO 9512 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-05-19 20:03:19.511  WARN 9512 --- [hz.romantic_kare.InvocationMonitorThread] c.h.s.i.o.impl.InvocationMonitor         : [10.1.84.218]:5701 [dev] [4.0.2] MonitorInvocationsTask delayed 1332553 ms
+2022-05-19 20:03:19.511  WARN 9512 --- [hz.romantic_kare.InvocationMonitorThread] c.h.s.i.o.impl.InvocationMonitor         : [10.1.84.218]:5701 [dev] [4.0.2] BroadcastOperationControlTask delayed 1328850 ms
+2022-05-19 20:03:19.598  INFO 9512 --- [hz.romantic_kare.cached.thread-16] c.h.i.c.impl.ClusterHeartbeatManager     : [10.1.84.218]:5701 [dev] [4.0.2] System clock apparently jumped from 2022-05-19 19:41:05.655 to 2022-05-19 20:03:19.541 since last heartbeat (+1328886 ms)
+2022-05-19 20:03:19.602  WARN 9512 --- [hz.romantic_kare.cached.thread-16] c.h.i.c.impl.ClusterHeartbeatManager     : [10.1.84.218]:5701 [dev] [4.0.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1328886 ms, Heartbeat-Timeout: 60000 ms
+2022-05-19 20:03:19.610  WARN 9512 --- [hz.romantic_kare.cached.thread-22] c.h.i.cluster.impl.MulticastService      : [10.1.84.218]:5701 [dev] [4.0.2] Sending multicast datagram failed. Exception message saying the operation is not permitted usually means the underlying OS is not able to send packets at a given pace. It can be caused by starting several hazelcast members in parallel when the members send their join message nearly at the same time.
+
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.TwoStacksPlainDatagramSocketImpl.send0(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.send(AbstractPlainDatagramSocketImpl.java:155) ~[na:na]
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695) ~[na:na]
+	at com.hazelcast.internal.cluster.impl.MulticastService.send(MulticastService.java:290) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.internal.cluster.impl.MulticastJoiner.searchForOtherClusters(MulticastJoiner.java:113) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.internal.cluster.impl.SplitBrainHandler.searchForOtherClusters(SplitBrainHandler.java:75) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.internal.cluster.impl.SplitBrainHandler.run(SplitBrainHandler.java:42) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.spi.impl.executionservice.impl.DelegateAndSkipOnConcurrentExecutionDecorator$DelegateDecorator.run(DelegateAndSkipOnConcurrentExecutionDecorator.java:77) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.internal.util.executor.CachedExecutorServiceDelegate$Worker.run(CachedExecutorServiceDelegate.java:217) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.executeRun(HazelcastManagedThread.java:64) ~[hazelcast-all-4.0.2.jar:4.0.2]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:80) ~[hazelcast-all-4.0.2.jar:4.0.2]
+
+2022-05-19 20:03:36.357  WARN 9512 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m52s589ms480µs700ns).
+2022-05-19 20:04:30.382  INFO 9512 --- [hz.ShutdownThread] com.hazelcast.instance.impl.Node         : [10.1.84.218]:5701 [dev] [4.0.2] Running shutdown hook... Current state: ACTIVE
+2022-05-19 20:04:30.671  INFO 9512 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-19 20:04:30.675  INFO 9512 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 20:04:30.683  INFO 9512 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 20:04:30.687  INFO 9512 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-19 20:04:59.212  INFO 28868 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : Starting ReservationsSpringBootApplication using Java 11.0.14 on CTRL-J0FYLG3 with PID 28868 (C:\Users\abenaiche\Desktop\Workspace\Reservations-SpringBoot\target\classes started by ABenaiche in C:\Users\abenaiche\Desktop\Workspace\Reservations-SpringBoot)
+2022-05-19 20:04:59.212  INFO 28868 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : The following profiles are active: DEV
+2022-05-19 20:04:59.260  INFO 28868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-19 20:04:59.260  INFO 28868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-19 20:05:00.015  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.064  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.064  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.064  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.064  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.082  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.097  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.097  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.097  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:00.097  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-19 20:05:00.113  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-05-19 20:05:01.046  INFO 28868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-19 20:05:01.062  INFO 28868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 20:05:01.062  INFO 28868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-05-19 20:05:01.230  INFO 28868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 20:05:01.230  INFO 28868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1970 ms
+2022-05-19 20:05:01.246  INFO 28868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 20:05:01.463  INFO 28868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 20:05:01.478  INFO 28868 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./reservations'
+2022-05-19 20:05:01.547  INFO 28868 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2022-05-19 20:05:01.547  INFO 28868 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:h2:file:./reservations (H2 1.4)
+2022-05-19 20:05:01.631  INFO 28868 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 24 migrations (execution time 00:00.059s)
+2022-05-19 20:05:01.647  INFO 28868 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 12.2
+2022-05-19 20:05:01.647  INFO 28868 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-05-19 20:05:01.662  INFO 28868 --- [restartedMain] c.h.i.config.AbstractConfigLocator       : Loading 'hazelcast.yaml' from the classpath.
+2022-05-19 20:05:01.747  WARN 28868 --- [restartedMain] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2022-05-19 20:05:01.785  INFO 28868 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.2] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2022-05-19 20:05:02.139  INFO 28868 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.2] Picked [10.31.172.182]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2022-05-19 20:05:02.154  INFO 28868 --- [restartedMain] com.hazelcast.system                     : [10.31.172.182]:5701 [dev] [4.0.2] Hazelcast 4.0.2 (20200702 - 2de3027) starting at [10.31.172.182]:5701
+2022-05-19 20:05:02.154  INFO 28868 --- [restartedMain] com.hazelcast.system                     : [10.31.172.182]:5701 [dev] [4.0.2] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2022-05-19 20:05:02.301  INFO 28868 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [10.31.172.182]:5701 [dev] [4.0.2] Backpressure is disabled
+2022-05-19 20:05:03.087  INFO 28868 --- [restartedMain] com.hazelcast.instance.impl.Node         : [10.31.172.182]:5701 [dev] [4.0.2] Creating MulticastJoiner
+2022-05-19 20:05:03.087  WARN 28868 --- [restartedMain] com.hazelcast.cp.CPSubsystem             : [10.31.172.182]:5701 [dev] [4.0.2] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2022-05-19 20:05:03.303  INFO 28868 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [10.31.172.182]:5701 [dev] [4.0.2] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2022-05-19 20:05:03.303  INFO 28868 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [10.31.172.182]:5701 [dev] [4.0.2] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2022-05-19 20:05:03.318  INFO 28868 --- [restartedMain] com.hazelcast.core.LifecycleService      : [10.31.172.182]:5701 [dev] [4.0.2] [10.31.172.182]:5701 is STARTING
+2022-05-19 20:05:05.299  INFO 28868 --- [restartedMain] c.h.internal.cluster.ClusterService      : [10.31.172.182]:5701 [dev] [4.0.2] 
+
+Members {size:1, ver:1} [
+	Member [10.31.172.182]:5701 - 114b7af8-65cd-4b6a-be53-f03221bc9551 this
+]
+
+2022-05-19 20:05:05.299  INFO 28868 --- [restartedMain] com.hazelcast.core.LifecycleService      : [10.31.172.182]:5701 [dev] [4.0.2] [10.31.172.182]:5701 is STARTED
+2022-05-19 20:05:05.392  INFO 28868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-19 20:05:05.470  INFO 28868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-05-19 20:05:05.623  INFO 28868 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-19 20:05:05.771  INFO 28868 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-19 20:05:06.340  INFO 28868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-19 20:05:06.355  INFO 28868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-19 20:05:06.709  WARN 28868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-19 20:05:06.794  INFO 28868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-19 20:05:07.310  INFO 28868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-19 20:05:07.326  INFO 28868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-19 20:05:07.341  INFO 28868 --- [restartedMain] b.i.p.ReservationsSpringBootApplication  : Started ReservationsSpringBootApplication in 8.542 seconds (JVM running for 9.252)
